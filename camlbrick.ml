@@ -203,8 +203,9 @@ type t_paddle = unit;;
 
 
 (* Itération 1, 2, 3 et 4 *)
-type t_camlbrick = unit
+type t_camlbrick = { color : t_camlbrick_color , BK : t_brick_kind , pos : t_camlworld}
 ;;
+(* t_camlworld sera le nom de la matrice pour la position des briques du jeu *)
 
 
 (**
